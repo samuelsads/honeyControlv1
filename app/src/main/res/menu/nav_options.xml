@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/menu_client"
+            android:icon="@mipmap/ic_client"
+            android:title="Client"/>
+        <item android:id="@+id/menu_products"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Products"/>
+        <item android:id="@+id/menu_info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Information"/>
+    </group>
+
+    <item
+        android:title="Others Options">
+        <menu>
+            <item
+                android:id="@+id/menu_option_1"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="Opcion 1">
+            </item>
+            <item
+                android:id="@+id/menu_option_2"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="Opcion 2">
+            </item>
+        </menu>
+    </item>
+</menu>

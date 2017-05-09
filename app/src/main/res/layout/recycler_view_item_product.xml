@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@android:color/transparent"
+    android:layout_margin="2dp"
+    card_view:cardCornerRadius="4dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingEnd="10dp">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="7dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Size"
+                android:id="@+id/viewSize"
+                android:layout_weight="0.26" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="1 litro"
+                android:layout_weight="0.8"
+                android:id="@+id/textViewSize"
+                android:textSize="17dp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Price"
+                android:id="@+id/viewPrice"
+                android:layout_weight="0.26" />
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="$70.00"
+                android:layout_weight="0.8"
+                android:id="@+id/textViewPrice"
+                android:textSize="17dp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Amount"
+                android:id="@+id/viewSize12"
+                android:layout_weight="0.26" />
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="$70.00"
+            android:layout_weight="0.8"
+            android:id="@+id/textViewPrice1"
+            android:textSize="17dp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
